@@ -1,0 +1,136 @@
+* {
+    font-family: 'Courier Prime', monospace;
+    color: inherit;
+}
+
+html, body {
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #D4D5EC;
+    text-align: justify;
+}
+
+.container {
+    display: flex;
+}
+
+.menu_esquerdo {
+    position: fixed;
+    box-sizing: border-box;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 100vh;
+    background-color: #F5F5F4;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2.2rem;
+    color: #101210;
+}
+
+.parte_superior {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.foto_perfil {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin-bottom: 1rem;
+}
+
+.parte_inferior {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.foto_logo {
+    border-radius: 50%;
+    width: 120px;
+    height: 100px;
+    margin-bottom: 1rem;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 25%;
+    width: 75%;
+    height: 10vh;
+    background-color: #515267;
+    color:#F5F5F4;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1rem;
+    z-index: 1;
+}
+
+.main {
+    position: relative;
+    left: 25%;
+    margin: 1rem;
+    color: #101210;
+}
+
+.foto_bordado {
+    width: 288px;
+    height: 384px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 6rem;
+    margin-right: 3rem;
+}
+
+.foto_bordado2 {
+    width: 288px;
+    height: 384px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 3rem;
+}
+
+h1{
+    font-size: 1.6rem;
+    font-family: 'Sansita Swashed', cursive;
+}
+
+p{
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    max-width: 75rem;
+}
+
+.section .section-content {
+    min-height: 50vh;
+}
+
+.project-section {
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+}
